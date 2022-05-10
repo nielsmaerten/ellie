@@ -1,0 +1,16 @@
+{
+  "name": "ellie",
+  "version": "1.0.0",
+  "description": "Forked from https://freebiesbug.com/code-stuff/ellie/",
+  "repository": "https://freebiesbug.com/code-stuff/ellie/",
+  "license": "GPLv3",
+  "private": true,
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir dist"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.5.0",
+    "parcel": "^2.5.0"
+  }
+}
